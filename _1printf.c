@@ -1,12 +1,12 @@
 #include"main.h"
 
 /**
- * _printf - Custom printf function to print integers
+ * _printf_1 - Custom printf function to print integers
  * @format: Format string with %d and %i specifiers
  *
  * Return: Number of characters printed (excluding null byte)
  */
-int _printf(const char *format, ...)
+int _printf_1(const char *format, ...)
 {
 va_list args;
 int int_print = 0;
